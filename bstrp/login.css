@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  position: relative;
+}
+
+body {
+  background-image: url(/bookshelf/images/loginbook.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  background-position-x: -80px;
+  
+}
+
+h1 {
+  font-family: 'Viga', sans-serif;
+}
+
+.container {
+  position: absolute;
+  top:250px;
+  left: 50px;
+}
