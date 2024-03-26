@@ -27,8 +27,9 @@
 			<td><?php echo $r_tampil_anggota['jeniskelamin']; ?></td>
 			<td><?php echo $r_tampil_anggota['alamat']; ?></td>
 			<td>
-				<div class="tombol-opsi-container"><a href="cetak/cetak-kartu-identitas-anggota.php?id=<?php echo $r_tampil_anggota['danggota]; ?>" 
-					target="_blank" class="tombol">Cetak Kartu</a></div>
+				
+			<div class="tombol-opsi-container"><a href="cetak/cetak-kartu-identitas-anggota.php?id=<?php echo $r_tampil_anggota['idanggota']; ?>" 
+				target="_blank" class="tombol">Cetak Kartu</a></div>
 
 				<div class="tombol-opsi-container"><a href="index.php?p=anggota-edit&id=<?php echo $r_tampil_anggota['idanggota'];?>" class="tombol">Edit</a></div>
 				<div class="tombol-opsi-container"><a href="proses/anggota-hapus.php?id=<?php echo $r_tampil_anggota['idanggota']; ?>" class="tombol">Hapus</a></div>
